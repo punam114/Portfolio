@@ -57,8 +57,8 @@ function App() {
             </div>
             <div className="profile-text">
               <h1 className="fade-in">Punam Kumari</h1>
-              <h3 className="fade-in-delay">Frontend Developer</h3>
-              <p className="fade-in-delay-2">I am passionate about software development, especially in front-end technologies. I have worked with HTML, CSS, JavaScript, React, and I have also explored back-end tools like Node.js, Express, and MongoDB. Along with this, I enjoy solving problems using data structures and algorithms.</p>
+              <h3 className="fade-in-delay">Software Developer</h3>
+              <p className="fade-in-delay-2">I am passionate about software development, especially in front-end technologies. I have worked with HTML, CSS, JavaScript, React, and I have also explored back-end tools like Node.js, Express, and MongoDB. Along with this, I enjoy solving problems.</p>
             </div>
           </div>
         </div>
@@ -69,29 +69,28 @@ function App() {
         <div className="container">
           <h2 className="section-title">Projects</h2>
           <div className="projects-grid">
-            <div className="project-card slide-up">
-
+            <div className="project-card slide-up" onClick={() => window.open('https://home-improvement-tracker.netlify.app/', '_blank')} style={{cursor: 'pointer'}}>
               <div className="project-image home-icon"></div>
               <h3>Home Improvement Tracker</h3>
               <p>Track and manage home renovation projects with budget monitoring and progress tracking</p>
               <div className="tech-stack">HTML5 • CSS3 • JavaScript</div>
             </div>
 
-            <div className="project-card slide-up-delay">
+            <div className="project-card slide-up-delay" onClick={() => window.open('https://recipe-app-sigma-sooty.vercel.app/', '_blank')} style={{cursor: 'pointer'}}>
               <div className="project-image recipe-icon"></div>
               <h3>Recipe App</h3>
               <p>Discover, save, and share your favorite recipes with ingredient lists and cooking instructions</p>
               <div className="tech-stack">HTML5 • CSS3 • React • Firebase • Tailwind CSS</div>
             </div>
 
-            <div className="project-card slide-up-delay-2">
+            <div className="project-card slide-up-delay-2" onClick={() => window.open('https://6658b5dc043c344859049415--inquisitive-daffodil-b3afeb.netlify.app/', '_blank')} style={{cursor: 'pointer'}}>
               <div className="project-image glasses-icon"></div>
               <h3>Lenskart Clone</h3>
               <p>E-commerce eyewear website clone with product catalog, cart functionality, and user authentication</p>
               <div className="tech-stack">HTML5 • CSS3</div>
             </div>
 
-            <div className="project-card slide-up">
+            <div className="project-card slide-up" onClick={() => window.open('https://project-1-mu-three.vercel.app/', '_blank')} style={{cursor: 'pointer'}}>
               <div className="project-image laptop-icon"></div>
               <h3>Dell Clone</h3>
               <p>Responsive computer hardware website clone featuring product showcase and modern UI design</p>
@@ -142,13 +141,13 @@ function App() {
             <div className="resume-section">
               <h3>Education</h3>
               <div className="resume-item">
-                <h4>Masters In Computer Science</h4>
+                <h4>Masters In Computer Application</h4>
                 <p className="company">YBN University • 2023 - 2025</p>
                 <p>Graduated with honors, specialized in web development and software engineering</p>
               </div>
             </div>
             <div className="download-resume">
-              <button className="btn-primary">See Resume</button>
+              <button className="btn-primary" onClick={() => window.open('https://drive.google.com/file/d/1RcFLWQz6FK2_t2QZmHA2eCkbw-VCQ5Ty/view?usp=sharing', '_blank')}>See Resume</button>
             </div>
           </div>
         </div>
